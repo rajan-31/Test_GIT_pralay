@@ -10,12 +10,6 @@ class Calculator:
     def subtract(self, a, b):
         return a - b
 
-    def divide(self, a, b):
-        return a / b
-
-    def mul(self,a,b):
-        return a*b*1000
-
     def mod(self, a,b):
         return a % b
     
@@ -28,7 +22,3 @@ if __name__=='__main__':
 
     print(calculator.add(a,b))
     print(calculator.subtract(a,b))
-
-    print(calculator.divide(a,b))
-    print(calculator.mul(a,b))
-    print("HELLO WORLD")
