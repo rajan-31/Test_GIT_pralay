@@ -19,6 +19,9 @@ class Calculator:
     def mod(self, a,b):
         return a % b
     
+    def iterator(self):
+        for i in range(10):
+            print("Manager Aditya")
 
 if __name__=='__main__':
 
@@ -31,4 +34,5 @@ if __name__=='__main__':
 
     print(calculator.divide(a,b))
     print(calculator.mul(a,b))
-    print("HELLO WORLD")
+    print("---------------")
+    calculator.iterator()
