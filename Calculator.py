@@ -16,6 +16,9 @@ class Calculator:
     def mul(self,a,b):
         return a*b*1000
 
+    def mod(self, a,b):
+        return a % b
+    
 
 if __name__=='__main__':
 
