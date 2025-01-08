@@ -7,6 +7,10 @@ class Calculator:
     def add(self, a, b):
         return a + b
 
+    def mod(self, a,b):
+        return a % b
+    
+
 if __name__=='__main__':
 
     calculator = Calculator()
