@@ -10,6 +10,9 @@ class Calculator:
     def subtract(self, a, b):
         return a - b
 
+    def divide(self, a, b):
+        return a / b
+
 if __name__=='__main__':
 
     calculator = Calculator()
@@ -18,3 +21,4 @@ if __name__=='__main__':
 
     print(calculator.add(a,b))
     print(calculator.subtract(a,b))
+    print(calculator.divide(a,b))
